@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 IECApp::Application.configure do
+=======
+SocialLogin::Application.configure do
+>>>>>>> 88609dc07948e6f6330c563314ce882d2910c1f2
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests

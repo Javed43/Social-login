@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
   <title>IECApp</title>
+=======
+  <title>SocialLogin</title>
+>>>>>>> 88609dc07948e6f6330c563314ce882d2910c1f2
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<<<<<<< HEAD
 
+=======
+<%= alert  %>
+<%= notice  %>
+<%= link_to "Home", root_path%>
+<% if session[:user_id].nil? %>
+	 <%= link_to "Login", new_session_path %> <br/>
+	 <%= link_to "Sign Up", new_user_path %> <br/>
+	<%= link_to "Sign in with Twitter", "/auth/twitter" %> <br/>
+	<%= link_to "Sign in with Google", "/auth/google_oauth2" %> <br/>
+	<%= link_to "Sign in with facebook", "/auth/facebook" %> <br/>
+	<%= link_to "Sign in with Github", "/auth/github"%> <br/>
+	<%= link_to "Sign in with Linkedin", "/auth/linkedin"%>
+	
+<% else %>
+   <%= link_to "Logout", "/sessions/#{session[:user_id]}", :method => :delete %> <br/>
+<%end%>
+>>>>>>> 88609dc07948e6f6330c563314ce882d2910c1f2
 <%= yield %>
 
 </body>

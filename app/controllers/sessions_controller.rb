@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 class SessionsController < ApplicationController
 def create

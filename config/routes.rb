@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IECApp::Application.routes.draw do
   resources :sessions
 

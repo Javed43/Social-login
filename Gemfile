@@ -1,11 +1,24 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.14'
+<<<<<<< HEAD
+=======
+gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
+gem 'omniauth-twitter'
+gem 'omniauth-github'
+gem 'omniauth-linkedin'
+>>>>>>> 88609dc07948e6f6330c563314ce882d2910c1f2
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+<<<<<<< HEAD
+=======
+gem 'quiet_assets'
+gem 'thin'
+>>>>>>> 88609dc07948e6f6330c563314ce882d2910c1f2
 
 
 # Gems used only for assets and not required
@@ -15,7 +28,11 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+<<<<<<< HEAD
   gem 'therubyracer', :platforms => :ruby
+=======
+   gem 'therubyracer', :platforms => :ruby
+>>>>>>> 88609dc07948e6f6330c563314ce882d2910c1f2
 
   gem 'uglifier', '>= 1.0.3'
 end
